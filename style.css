@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url('https://bestwallpaperhd.s3.us-east-2.amazonaws.com/wp-content/uploads/2024/03/03123910/minecraft-discord-banner2-768x432.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh; 
+}
+
+body::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+}
+
+
+input, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#suggestions {
+    position: absolute;
+    background: white;
+    border: 1px solid gray;
+    max-height: 150px;
+    overflow-y: auto;
+    width: max-content;
+    min-width: 200px; 
+    z-index: 100;
+    left: 0;
+    top: 100%; 
+}
+
+.suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-item:hover {
+    background: lightgray;
+}
+
+
+.suggestion-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#suggestions {
+    position: absolute;
+    width: max-content;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 100;
+}
+
+
+.result-img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-top: 10px;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+
+.result-img {
+    width: 100px;
+    height: auto;
+    object-fit: contain; 
+}
+
+h1, p {
+    color: white; 
+    text-shadow: 2px 2px 4px black; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lightgray; 
+}
+
+a:visited {
+    color: white; 
+}
+input[type="number"] {
+    border: none; 
+    outline: none; 
+}
